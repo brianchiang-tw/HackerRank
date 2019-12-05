@@ -70,7 +70,7 @@ def merge_sort(arr, left, right):
         # Divide state: left part
         inversion_count += merge_sort(arr, left, mid)
 
-        # Divide stage: left part
+        # Divide stage: right part
         inversion_count += merge_sort(arr, mid+1, right)
 
         # Conquer state: merge left and right
