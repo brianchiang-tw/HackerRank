@@ -1,0 +1,30 @@
+Qustion:
+
+In a single toss of 2 fair six-sided dice, 
+find the probability that the values rolled by each die will be different and the two dice have a sum of 6
+
+
+
+Solution:
+
+For 2 fair six-sided dice:
+
+sum = 6:
+
+    (5, 1) v
+    (4, 2) v
+    (3, 3) x
+    (2, 4) v
+    (1, 5) v
+
+But the description demands having different values, so (3, 3) is invlid choice.
+
+total combination for sum = 6 = 4
+
+P ( sum = 6 ) = 4 / 36 = 1 / 9
+
+
+
+Ans:
+
+P ( sum = 6 ) = 1 / 9
