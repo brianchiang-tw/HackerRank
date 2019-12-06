@@ -1,0 +1,13 @@
+
+def math_operation( a, b):
+
+    print( a + b )
+    print( a - b )
+    print( a * b )
+
+
+if __name__ == '__main__':
+    a = int(input())
+    b = int(input())
+
+    math_operation(a, b)
