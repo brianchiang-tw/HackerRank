@@ -1,0 +1,48 @@
+Qustion:
+
+In a single toss of 2 fair six-sided dice, find the probability that their sum will be at most 9.
+
+
+
+Solution:
+
+P( sum <= 9 ) + P( sum > 9 ) = 1
+
+=> P( sum <= 9 ) + P( sum >= 10 ) = 1
+
+=> P( sum <= 9 ) + P( sum >= 10 ) = 1
+
+=> P( sum <= 9 ) + P( sum >= 10 ) = 1
+
+
+
+For 2 fair six-sided dice:
+
+sum = 10:
+
+    (6, 4)
+    (5, 5)
+    (4, 6)
+
+sum = 11:
+
+    (6, 5)
+    (5, 6)
+
+sum = 12:
+
+    (6, 6)
+
+total combination for sum >= 10 = 3 + 2 + 1 = 6
+
+Recall that P( sum <= 9 ) + P( sum >= 10 ) = 1
+
+=> P ( sum <= 9 ) = 1 - P( sum >= 10 )
+
+=> P ( sum <= 9 ) = 1 - 6/36 = 1 - 1/6 = 5/6
+
+
+
+Ans:
+
+P ( sum <= 9 ) = 5 / 6
