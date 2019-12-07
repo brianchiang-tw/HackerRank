@@ -1,0 +1,67 @@
+Qustion:
+
+Suppoer a family has 2 children, one of which is a boy. What is the probability that both children are boys?
+
+
+Solution:
+
+
+
+    # Method_#1
+
+For all possible cases of 2 children:
+
+    (Boy, Boy)
+    (Boy, Girl)
+    (Girl, Boy)
+    (Girl, Girl)
+
+# Let the (Boy, Boy) as Event A
+# Let the case of one of them is a boy as Event B
+
+First, we have that P(B) 
+= 1 - P( none of which is a boy ) 
+= 1 - (1/2) * (1/2) 
+= 1 - 1/4
+= 3/4
+
+Second, we can know that P( A ∩ B ) 
+= P( Boy, Boy )
+= 1/2 * 1/2
+= 1/4
+
+Finally, we know the conditional probability of P( A | B) 
+
+P( A | B) 
+= P( A ∩ B ) / P( B )
+
+= (1/4) / (3/4)
+
+= 1/3
+
+
+
+    # Method_#2
+
+For all possible cases of 2 children:
+
+    (Boy, Boy)
+    (Boy, Girl)
+    (Girl, Boy)
+    (Girl, Girl)
+
+Under the condition of that one of which is Boy, we have
+
+    (Boy, Boy)
+    (Boy, Girl)
+    (Girl, Boy)
+
+Then compute the probability that both of two children are Boys
+
+P( Boy, Boy | one of which is Boy ) = 1 / 3
+
+
+Ans:
+
+P( Boy, Boy | one of which is Boy ) 
+= 1 / 3
