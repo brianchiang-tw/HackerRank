@@ -1,0 +1,38 @@
+Qustion:
+
+You draw 2 cards from a standard 52-card deck without replacing them. 
+What is the probability that both cards are of the suit?
+
+
+Solution:
+
+
+
+    # Method_#1
+
+# Let the result of drawing two cards with same suit as Event A
+
+# C( m, n) denotes the mathematical combination symbol
+# C( m, n) = (m!) / ( n! * (m-n)! )
+
+P( A ) 
+= C(4, 1) * C(13, 2) / C(52, 2)
+= 12 / 51
+
+
+
+    # Method_#2
+
+# Let the result of drawing two cars with same suit as Event A
+
+P( A ) 
+= P( two Spades ) + P( two Hearts ) + P( two Diamond ) + P( two Clubs )
+= 4 * P( two Spades ) from the symmetric property
+= 4 * ( 13 / 52 ) * ( 12 / 51 )
+= 1 * ( 12 / 51 ) 
+= 12 / 51
+
+Ans:
+
+P( both cards are of the suit ) 
+= 12 / 51
