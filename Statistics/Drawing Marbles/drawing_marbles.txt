@@ -1,0 +1,43 @@
+Question:
+
+A bag contains 3 red marbles and 4 blue marbles.
+Then, 2 marbles are drawn from the bad, at raondom, without replacement.
+If the first marble drawan is red, what is the probability that the second marble is blue?
+
+
+Solution:
+
+# Let the result of first marble is red be Event A 
+# Let the result of first marble is red and second marble be Event B
+
+
+
+Initial state:
+
+3 Red marbles
+4 Blue marbles
+
+P( A ) 
+= 3 / ( 3 + 4 )
+= 3 / 7
+
+After drawing one red marble, it becomes as following:
+
+2 Red marbles
+4 Blue marbles
+
+P( A ∩ B ) 
+= 4 / ( 2 + 4 )
+= 4 / 6
+= 2 / 3
+
+P( A | B )
+= P( A ) = P( A ∩ B ) / P( B )
+
+= [ ( 3 / 7 )*( 2 / 3 ) ] / ( 3 / 7)
+= 2 / 3
+
+
+Ans:
+
+P( Red, Blue) = 2 / 3
