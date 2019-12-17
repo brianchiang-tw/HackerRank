@@ -1,9 +1,8 @@
-
 import re
 
-def is_valid_phone_number( s )->str:
+def is_valid_phone_number( s)->str:
 
-    regex = r'^([7-9]{1,1}[0-9]{9,9})$'
+    regex = r'^([7-9]{1}[0-9]{9})$'
 
     pattern = re.compile( regex )
 
