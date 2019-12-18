@@ -1,4 +1,5 @@
-regex_pattern = r"(...\.){3}(...)"	# Do not delete 'r'.
+
+regex_pattern = r'^((...\.){3}(...){1})$'
 
 import re
 import sys
