@@ -1,0 +1,1 @@
+https://www.hackerrank.com/challenges/detect-the-domain-name/problem
