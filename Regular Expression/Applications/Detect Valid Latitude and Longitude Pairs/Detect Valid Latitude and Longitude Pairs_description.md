@@ -1,0 +1,1 @@
+https://www.hackerrank.com/challenges/detecting-valid-latitude-and-longitude/problem
