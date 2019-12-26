@@ -10,7 +10,7 @@ def person_lister(f):
         generator_of_peoeple = ( p for p in people )
 
         # run function over each person in people
-        return map(f, gen_of_peoeple)
+        return map(f, generator_of_peoeple)
 
     return inner
 
