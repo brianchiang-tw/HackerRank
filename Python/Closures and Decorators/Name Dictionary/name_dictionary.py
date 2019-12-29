@@ -5,7 +5,7 @@ def person_lister(f):
         # complete the function
         
         # sort people by age with ascending order
-        people.sort( key = lambda p: p[2] )
+        people.sort( key = lambda p: int(p[2]) )
 
         generator_of_peoeple = ( p for p in people )
 
